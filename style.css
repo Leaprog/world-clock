@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #e0f0f3;
   font-family: sans-serif;
 }
 
@@ -8,11 +8,12 @@ body {
   margin: 60px auto;
   background-color: white;
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
 .city {
+  color: #3e5758;
   display: flex;
   margin: 20px 0;
   justify-content: space-between;
@@ -44,6 +45,7 @@ h2 {
 }
 
 select {
+  color: #3e5758;
   display: block;
   width: 100%;
   border-radius: 10px;
@@ -52,8 +54,9 @@ select {
 }
 
 h1 {
+  color: #3e5758;
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   font-family: sans-serif;
 }
 
@@ -61,4 +64,8 @@ footer {
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+a {
+  color: #3e5758;
 }
